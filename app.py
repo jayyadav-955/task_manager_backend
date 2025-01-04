@@ -10,7 +10,8 @@ import datetime
 app = Flask(__name__)
 CORS(app)
 # app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:''@localhost/task_manager'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://sql12753532:8GuZ9d7Wdw@sql12.freesqldatabase.com:3306/sql12753532'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://sql12755669:IQaf21EhcB@sql12.freesqldatabase.com:3306/sql12755669'
+
 app.config['SECRET_KEY'] = 'tsm1'
 db = SQLAlchemy(app)
 bcrypt = Bcrypt(app)
